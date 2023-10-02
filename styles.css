@@ -1,0 +1,68 @@
+/* Estilos para la barra lateral */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 190px;
+    height: 95;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    z-index: 1; /* Asegura que la barra lateral esté en la parte superior */
+}
+
+/* Estilos para los botones */
+button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: #444;
+    border: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Estilos para los colores de los botones */
+button#button1 {
+    background-color: #d41a01; /* Rojo */
+}
+
+button#button2 {
+    background-color: #0a78c7; /* Azul */
+}
+
+/* Agrega más estilos para botones de otros colores si es necesario */
+
+button:hover {
+    background-color: #555;
+    transform: scale(1.05); /* Efecto de aumento de tamaño al pasar el mouse */
+}
+
+button:focus {
+    outline: none; /* Elimina el contorno al hacer clic */
+}
+
+/* Estilos para el iframe para que ocupe toda la pantalla */
+iframe {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: calc(100% - 200px);
+    height: 100%;
+    border: none;
+    z-index: 0; /* Asegura que el iframe esté detrás de la barra lateral */
+}
+
+/* Estilos para la imagen del logo en el sidebar */
+.logo {
+    width: 100%;
+    max-width: 250px; /* Ajusta el ancho máximo según sea necesario */
+    margin-top: 320px;
+}
+
+button#toggleSidebarButton{
+    width: 100%;
+    max-width: 250px ;
+}

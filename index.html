@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Atractiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <button id="button1" onclick="loadContent('https://embed.kumu.io/0332a33cf99fce5904a78a635ddda555')">KUMU.IO Transformación Digital</button>
+        <button id="button2" onclick="loadContent('https://app.powerbi.com/reportEmbed?reportId=f0b8a058-b916-47f6-9045-abe0cd1ddfa1&autoAuth=true&ctid=89ae8f1a-0328-46c9-8af4-5ee611bb360e')">Power BI Transformación Digital</button>
+        <!-- Agrega más botones de ejemplo según sea necesario -->
+        <img src="https://sibcolombia.net/wp-content/uploads/2016/05/Logo-isagen.png" alt="Logo Isagen" class="logo">
+        
+        <!-- Botón para ocultar/mostrar el sidebar -->
+        <button id="toggleSidebarButton" onclick="toggleSidebar()">Menú</button>
+    </div>
+    <iframe id="contentFrame" frameborder="0"></iframe>
+    <script src="script.js"></script>
+</body>
+</html>
